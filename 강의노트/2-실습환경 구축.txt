@@ -1,0 +1,29 @@
+# 01. 설치
+
+    : npx create-react-app 생성할app명 작성
+
+    => 사전 작업 
+        01. node.js 설치하기
+            : npx create-react-app 생성app명 (or .)
+
+        02. 포트 열기
+            : cd 생성한 페이지
+            : npm run start
+
+
+# 02. 소스 코드 수정
+
+    src/index.js : 입구 파일이다 .
+        -> 포트를 열면, index.js 파일을 찾고 ~~> 거기에 적혀있는대로 동작하게 된다.
+        -> 전역적인 설정 값들이 들어가게 된다.
+    
+    <App /> == App.js
+        -> 여기서 내용을 편집해 UI를 만들면 된다.
+
+
+# 03. 배포
+    npm run build
+        : 위 명령어를 사용하면 배포판 폴더가 생성된다.
+    
+    npx serve -s build 
+
